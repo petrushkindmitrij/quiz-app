@@ -1,0 +1,25 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html{
+  font-size: clamp(16px, calc(1.5vw - 5px), 40px);
+  background: linear-gradient(45deg, $clr-blue, $clr-red);
+
+  height: 100vh;
+}
+
+body{
+  color: $clr-blue;
+  font-family: $font-family-general;
+
+  padding: 0 2ch;
+  margin: auto;
+  max-width: 60ch;
+}
